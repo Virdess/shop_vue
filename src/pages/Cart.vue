@@ -32,9 +32,6 @@ export default defineComponent({
 
 <template>
     <div class="home">
-        <h1>
-            Детское
-        </h1>
         <div class="row" v-if="Object.keys(products).length">
             <div class="d-flex flex-column flex-md-row p-4 gap-4 py-md-5 align-items-center justify-content-center">
                 <div class="list-group list-group-checkable d-grid gap-2 border-0" style="cursor: pointer;">
